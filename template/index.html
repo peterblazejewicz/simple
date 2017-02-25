@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Welcome to Vue</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
@@ -32,23 +33,6 @@
     </ul>
   </div>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
-  <script>
-    new Vue({
-      el: '#app',
-      data: {
-        greeting: 'Welcome to your Vue.js app!',
-        docsURL: 'http://vuejs.org/guide/',
-        gitterURL: 'https://gitter.im/vuejs/vue',
-        forumURL: 'http://forum.vuejs.org/'
-      },
-      methods: {
-        humanizeURL: function (url) {
-          return url
-            .replace(/^https?:\/\//, '')
-            .replace(/\/$/, '')
-        }
-      }
-    })
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
